@@ -96,7 +96,7 @@ def menu():
 	action()
 	
 	def action():
-	bch = raw_input('\n  ENTER HERE ANY CODE   ')
+	bch = raw_input('\n  ▄︻̷̿┻̿═━一   ')
 	if bch =='':
 		print '[!] Fill in correctly'
 		action()
