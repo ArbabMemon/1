@@ -95,8 +95,8 @@ def menu():
 	print 50*'-'
 	action()
 	
-	def action():
-	bch = raw_input('\n  ▄︻̷̿┻̿═━一   ')
+def action():	
+	bch = raw_input('\n  ENTER HERE ANY NUMBER ')
 	if bch =='':
 		print '[!] Fill in correctly'
 		action()
